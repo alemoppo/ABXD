@@ -103,7 +103,7 @@ $tables = array
 			"date" => $genericInt,
 			"lasturl" => "varchar(100)".$notNull,
 			"lastforum" => $genericInt,
-			"useragent" => "varchar(100)".$notNull,			
+			"useragent" => "varchar(200)".$notNull,			
 			"bot" => $bool,
 		),
 		"special" => $keyID.", key `ip` (`ip`), key `bot` (`bot`)"
